@@ -19,6 +19,22 @@ dd {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+
+li, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role="list"],
 ol[role="list"] {

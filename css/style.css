@@ -8,35 +8,6 @@ header {
   padding: 0 15px;
 }
 
-.header_inner {
-  display: flex;
-  /* закидывает вертикальные блоки - в строчку */
-  justify-content: space-between;
-  /* раскидывает контент по краям */
-  align-items: center;
-  /* выравнивание по центру по вертикали */
-  min-height: 109px;
-}
-
-.menu_list {
-  display: flex
-}
-
-.menu_list li {
-  /* класс с именем(menu_list) внутри которого все li  */
-  padding-left: 38px;
-  list-style: none;
-  /* margin-left: 38px; */
-}
-
-.menu_list a {
-  font-style: 14px;
-  color: #fff;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-}
-
-a {
-  text-decoration: none;
+body {
+  background-color: #303030;
 }
