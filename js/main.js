@@ -15,4 +15,12 @@ $(function() {
     prevArrow: '<button class="slick-btn slick-prev"></button>'
 
   });
+
+
+  $('select').styler();
+
+
+
+
+
 });
