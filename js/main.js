@@ -2,7 +2,7 @@ $(function() {
 
 
 
-  $('.slider__inner').slick({
+  $('.slider__inner, .news__slider-inner').slick({
     infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
