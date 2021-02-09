@@ -691,14 +691,14 @@ header {
 
 .footer__map {
   padding-top: 10px;
+  /* width: 100%; */
 }
 
-.footer__map iframe {
+/* .footer__map iframe {
   height: 250px;
   max-width: 630px;
   width: 100%;
-}
-
+} */
 .footer__inner .header__btn {
   float: none;
   display: inline-block;
@@ -744,4 +744,14 @@ header {
   position: absolute;
   left: 0;
   color: #ffc222;
+}
+
+.footer__list .footer__phone:before {
+  content: "\f095";
+  left: 3px;
+}
+
+.footer__list .footer__adress:before {
+  content: "\f041";
+  left: 3px;
 }
