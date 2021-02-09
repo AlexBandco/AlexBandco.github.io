@@ -6,21 +6,34 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Complex yep!</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="css/jquery.fancybox.css">
+   <link rel="stylesheet" href="css/slick.css">
    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <header class="header">
-   <div class="container">
-      <div class="header__top">
-         <a href="tel:+380963092145">+38 (096) 309 21 45</a>
-         <a href="#">layout585@gmail.com</a>
-         <a href="#">Бесплатная консультация</a>
+   <div class="header__top">
+      <div class="container">
+         <div class="header_contacts">
+            <a class="header__phone" href="tel:+380963092145">+38 (096) 309 21 45</a>
+            <a class="header__email" href="#">layout585@gmail.com</a>
+            <a class="header__btn" data-fancybox data-src="#modal" href="javascript:;" href="#">Бесплатная консультация</a>
+         </div>
       </div>
-      <div class="header__content">
-         <div class="header__logo">
-            <a href="#">
-               <img src="img/logo.png" alt="Logotype">
-            </a>
+   </div>
+   <div class="header__content">
+      <div class="container">
+         <div class="header__content-inner">
+            <div class="header__logo">
+
+               <a href="#">
+                  <img src="img/logo.png" alt="Logotype">
+               </a>
+            </div>
             <nav class="menu">
                <ul>
                   <li><a href="#">Главная</a></li>
@@ -29,12 +42,168 @@
                   <li><a href="#">Контакты</a></li>
                </ul>
             </nav>
-
          </div>
       </div>
    </div>
 
+   <section class="slider">
+      <div class="container">
+
+         <!-- Слайдер:
+Заголок
+текст
+"Оставить заявку" - ссылкой! -->
+         <div class="slider__inner">
+
+            <div class="slider__item">
+               <div class="slider__item-content">
+                  <div class="slider__title">
+                     КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+                  </div>
+                  <div class="slider__text">
+                     Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+                  </div>
+                  <a data-fancybox data-src="#modal" href="javascript:;" class="slider__bnt default-btn">
+                     Оставить заявку
+                  </a> <!-- ссылка с попапом -->
+               </div>
+            </div>
+
+            <div class="slider__item">
+               <div class="slider__item-content">
+                  <div class="slider__title">
+                     КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+                  </div>
+                  <div class="slider__text">
+                     Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+                  </div>
+                  <a data-fancybox data-src="#modal" href="javascript:;" class="slider__bnt default-btn">
+                     Оставить заявку
+                  </a> <!-- ссылка с попапом -->
+               </div>
+            </div>
+
+            <div class="slider__item">
+               <div class="slider__item-content">
+                  <div class="slider__title">
+                     КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+                  </div>
+                  <div class="slider__text">
+                     Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+                  </div>
+                  <a data-fancybox data-src="#modal" href="javascript:;" class="slider__bnt default-btn">
+                     Оставить заявку
+                  </a> <!-- ссылка с попапом -->
+               </div>
+            </div>
+
+         </div>
+         <!-- конец слайдера -->
+
+      </div>
+
+   </section>
+
+   <!-- секция  Наши услуги -->
+   <section class="about">
+      <div class="container">
+         <div class="about__top">
+            <div class="about__title-box">
+               <div class="about-title">
+                  Наши Услуги
+               </div>
+               <div class="about__text">
+                  Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов во всех судебных инстанциях.
+               </div>
+            </div>
+
+            <a class="about__btn" href="#">
+               Показать все услуги
+            </a>
+
+         </div>
+         <div class="about__items">
+
+            <!-- 1 item -->
+            <div class="about__item">
+               <img src="img/about-1.png" alt="">
+               <div class="about__item-title">
+                  Банкротство и ликвидация
+               </div>
+               <div class="about__item-text">
+                  Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности
+               </div>
+               <div class="about__btn">
+                  <a href="#" class="about__item-link">
+                     Подробнее
+                  </a>
+                  <a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+                     Заказать
+                  </a> <!-- ссылка с попапом -->
+               </div>
+            </div>
+
+            <!-- 2 item -->
+            <div class="about__item">
+               <img src="img/about-2.png" alt="">
+               <div class="about__item-title">
+                  Адвокатское сопровождение
+               </div>
+               <div class="about__item-text">
+                  Мы гарантируем полное профессиональное обслуживание клиентов в заявленных сферах деятельности и соблюдение
+                  конфиденциальности.
+               </div>
+               <div class="about__btn">
+                  <a href="#" class="about__item-link">
+                     Подробнее
+                  </a>
+                  <a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+                     Заказать
+                  </a> <!-- ссылка с попапом -->
+               </div>
+            </div>
+
+            <!-- 3 item -->
+            <div class="about__item">
+               <img src="img/about-3.png" alt="">
+               <div class="about__item-title">
+                  Налоговый аудит
+               </div>
+               <div class="about__item-text">
+                  Налоговый аудит проводят перед проведением налоговых проверок; при оценке возможных налоговых рисков; при оптимизации налогообложения.
+               </div>
+               <div class="about__btn">
+                  <a href="#" class="about__item-link">
+                     Подробнее
+                  </a>
+                  <a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+                     Заказать
+                  </a> <!-- ссылка с попапом -->
+               </div>
+            </div>
+
+
+
+
+         </div>
+
+      </div>
+   </section>
+
+
+   <div id="modal">
+      <h2>Hello!</h2>
+      <p>You are awesome!</p>
+   </div>
+
 </header>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/jquery.fancybox.min.js" charset="utf-8"></script>
+<script src="js/slick.min.js" charset="utf-8"></script>
+<script src="js/main.js" charset="utf-8"></script>
+
 
 
 <body>

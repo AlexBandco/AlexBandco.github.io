@@ -1,27 +1,18 @@
-$(function(){
-  $('.reviews-slider').slick({
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    arrows: false,
-    dots: true,
-    responsive: [
-   {
-     breakpoint: 1106,
-     settings: {
-       slidesToShow: 1,
-       slidesToScroll: 1,
-       
-     },
-   }
- ]
-
-      });
-
-      $('.btn_menu').on('click', function(){
-        $('.menu_list').slideToggle();
-
-      })
+$(function() {
 
 
-    });
+
+  $('.slider__inner').slick({
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    speed: 500,
+    autoplay: false,
+    autoplaySpeed: 2500,
+    nextArrow: '<button class="slick-btn slick-next"></button>',
+    prevArrow: '<button class="slick-btn slick-prev"></button>'
+
+  });
+});
