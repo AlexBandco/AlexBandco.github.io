@@ -220,3 +220,37 @@ header {
 .slick-prev {
   left: 0;
 }
+
+.about {
+  padding: 50px 0 30px;
+}
+
+.about__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title-box {
+  max-width: 520px;
+  padding-left: 140px;
+  position: relative;
+}
+
+.about__title-box:before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background-color: #ffc222;
+  left: 0;
+}
+
+.about-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #212020;
+}
+
+.about-text {}
