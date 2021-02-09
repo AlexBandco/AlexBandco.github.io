@@ -755,3 +755,24 @@ header {
   content: "\f041";
   left: 3px;
 }
+
+#modal {
+  width: 300px;
+}
+
+#modal input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  border: 1px solid #c3c3c3;
+  padding: 0 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#modal input[type='submit'] {
+  background-color: #ffc222;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
