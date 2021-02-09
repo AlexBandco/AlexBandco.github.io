@@ -221,23 +221,25 @@ header {
   left: 0;
 }
 
-.about {
+.services {
   padding: 50px 0 30px;
 }
 
-.about__top {
+.services__top {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
 }
 
-.about__title-box {
+.services__title-box,
+.form__title-box {
   max-width: 520px;
   padding-left: 140px;
   position: relative;
 }
 
-.about__title-box:before {
+.services__title-box:before,
+.form__title-box:before {
   content: '';
   position: absolute;
   width: 100px;
@@ -247,7 +249,8 @@ header {
   top: 11px;
 }
 
-.about-title {
+.services__title,
+.form__title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -256,24 +259,26 @@ header {
   margin-bottom: 10px;
 }
 
-.about-text {
+.services__text,
+.form__text {
   letter-spacing: 0.1px;
 }
 
-.about__btn a {
+.services__btn a {
   letter-spacing: 0.25px;
   color: #373636;
   line-height: 24px;
   padding: 5px 38px;
   border: 3px solid #e6e6e6;
+  font-family: 'Roboto', sans-serif;
 }
 
-.about__items {
+.services__items {
   display: flex;
   justify-content: space-between;
 }
 
-.about__item {
+.services__item {
   max-width: 360px;
   text-align: center;
   padding: 30px 0 80px;
@@ -282,7 +287,8 @@ header {
   box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
 }
 
-.about__item-title {
+.services__item-title {
+  font-family: 'Roboto', sans-serif;
   color: #212020;
   font-size: 18px;
   line-height: 24px;
@@ -290,26 +296,107 @@ header {
   padding: 24px 0;
 }
 
-.about__item-text {
+.services__item-text {
   letter-spacing: 0.1px;
   padding: 0 30px 30px;
 }
 
-.about__item-btn {
+.services__item-btn {
   position: absolute;
   left: 0;
   right: 0;
 }
 
-.about__item-btn a {
+.services__item-btn a {
   margin: 0 32px;
 }
 
-.about__item-btn .default-btn {
+.services__item-btn .default-btn {
   color: #373636;
 }
 
-.about__item-link {
+.services__item-link {
+  font-family: 'Roboto', sans-serif;
   color: #050505;
   border-bottom: 1px solid #050505;
+}
+
+.about {
+  background: url(../img/about-fon.png) center center no-repeat #303030;
+  background-size: cover;
+  min-height: 300px;
+  padding: 25px 0 45px;
+}
+
+.about__inner {
+  max-width: 545px;
+}
+
+.about__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 0 25px;
+  /* margin-bottom: 20px; */
+  line-height: 24px;
+  color: #fff;
+}
+
+.about__text {
+  color: #d3d2d2;
+  font-family: 'PT Serif', serif;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.about__btn.default-btn::after {
+  color: #000;
+}
+
+.form {
+  padding-top: 30px;
+}
+
+.form__inner {
+  padding-bottom: 40px;
+  background: url(../img/girl.png) no-repeat right bottom;
+  min-height: 460px;
+}
+
+.form__box {
+  max-width: 850px;
+  padding-top: 45px;
+}
+
+.form__box-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__box-left {
+  max-width: 260px;
+  width: 100%;
+}
+
+.form__box-right {
+  max-width: 555px;
+  width: 100%;
+}
+
+.form__box-inner laber,
+.form__box-inner input,
+.form__box-inner textarea,
+.form__box-inner select {
+  display: block;
+  width: 100%;
+}
+
+.form__box-inner label {
+  line-height: 36px;
+  color: #282282;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form__box-inner input {
+  margin-bottom: 8px;
 }
