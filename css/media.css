@@ -53,8 +53,7 @@
     flex-direction: column; */
   }
 
-  .footer__map {
-    width: 100%;
+  .footer__map, .footer__info {
     max-width: 100%;
   }
 }
@@ -123,6 +122,10 @@
 
   .header__btn::before {
     display: none;
+  }
+
+  .footer__info .header__btn::before {
+    display: block;
   }
 
   .header__btn-menu {
@@ -206,6 +209,10 @@
 
   .advantages-item {
     padding: 0;
+  }
+
+  .footer__copy {
+    padding: 0 15px;
   }
 }
 

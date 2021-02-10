@@ -690,13 +690,13 @@ header {
 }
 
 .footer__map {
+  max-width: 630px;
   padding-top: 10px;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .footer__map iframe {
   height: 250px;
-  max-width: 630px;
   width: 100%;
 }
 
