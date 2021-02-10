@@ -694,11 +694,12 @@ header {
   /* width: 100%; */
 }
 
-/* .footer__map iframe {
+.footer__map iframe {
   height: 250px;
   max-width: 630px;
   width: 100%;
-} */
+}
+
 .footer__inner .header__btn {
   float: none;
   display: inline-block;

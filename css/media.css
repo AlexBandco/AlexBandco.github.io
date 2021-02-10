@@ -39,6 +39,24 @@
     float: left;
     margin-right: 35px;
   }
+
+  .news {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .footer__inner {
+    display: block;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+  }
+
+  .footer__map {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 900px) {
